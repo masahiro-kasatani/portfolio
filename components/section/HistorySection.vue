@@ -72,6 +72,6 @@ export default {
 
 <style>
 #history .inner {
-  max-width: 800px;
+  max-width: 700px;
 }
 </style>
