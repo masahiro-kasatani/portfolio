@@ -44,11 +44,6 @@
         <a v-for="link in links" :key="link.href" :href="link.href" target="_blank"><img :src="link.src" /></a>
       </div> -->
       <div class="specialized-area">
-        <h3>専門領域について</h3>
-        <p>
-          Webシステムのアーキテクト、テックリードとして活動しています。<br />
-          以下、特にバリューを発揮できる領域について記載します。
-        </p>
         <dl v-for="specialized in specializedList" :key="specialized.title">
           <dt>
             <h4>{{ specialized.title }}</h4>
@@ -69,20 +64,15 @@ export default {
       specializedList: [
         {
           title: 'AWSアーキテクティング',
-          desc: `非機能要件やコストから、最適な AWSインフラ構成を提案します。
-          絵に描いた餅にならないよう、FSを実施し、実現性を担保します。
-          「手を動かせるアーキテクト」であることが私の強みです。`,
+          desc: '非機能要件やコストから、最適な AWSインフラ構成を提案します。絵に描いた餅にならないよう、FSを実施し、実現性を担保します。「手を動かせるアーキテクト」であることが私の強みです。',
         },
         {
           title: 'Infrastructure as Code の導入',
-          desc: `Terraform、AWS CDK で様々なインフラを構築してきました。
-          その経験から、テックリードとして AWSインフラのコード化を推進できます。`,
+          desc: 'Terraform、AWS CDK で様々なインフラを構築してきました。その経験から、テックリードとして AWSインフラのコード化を推進できます。',
         },
         {
           title: 'アプリケーションアーキテクティング',
-          desc: `バックエンドは Spring、フロントエンドは Nuxt.js を専門としています。
-          プロジェクト構成検討や共通ライブラリの開発など、根幹部分を担当できます。
-          また、AWS SDKを利用する際のローカル開発環境構築などもサポートできます。`,
+          desc: 'Spring および Nuxt.js を専門としています。プロジェクト構成検討や共通ライブラリの開発など、根幹部分を担当できます。また、AWS SDKを利用する際のローカル開発環境構築などもサポートできます。',
         },
       ],
       // links: [
@@ -192,12 +182,8 @@ export default {
 }
 
 #about .specialized-area {
-  max-width: 800px;
+  max-width: 600px;
   margin: 2rem auto 0;
-}
-
-#about .specialized-area p {
-  margin-bottom: 1rem;
 }
 
 #about .specialized-area dd {
