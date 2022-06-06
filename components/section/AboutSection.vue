@@ -18,6 +18,10 @@
                 <td>{{ age }}歳</td>
               </tr>
               <tr>
+                <td>住所：</td>
+                <td>{{ place }}</td>
+              </tr>
+              <tr>
                 <td>略歴：</td>
                 <td>
                   <ul class="bio-list">
@@ -60,7 +64,8 @@ export default {
   data() {
     return {
       name: '笠谷 昌弘（カサタニ マサヒロ）',
-      bioList: ['同志社大学大学院 理工学研究科 情報工学専攻 修了（2016）', 'SCSK株式会社 入社（2016）', '独立（2020）'],
+      place: '東京都',
+      bioList: ['2016年 SCSK株式会社 入社', '2020年 独立'],
       specializedList: [
         {
           title: 'AWSアーキテクティング',
