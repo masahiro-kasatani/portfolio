@@ -41,8 +41,8 @@
           </table>
         </div>
       </div>
-      <div class="budge-area">
-        <a v-for="budge in budges" :key="budge.href" :href="budge.href" target="_blank"><img :src="budge.src" /></a>
+      <div class="badge-area">
+        <a v-for="badge in badges" :key="badge.href" :href="badge.href" target="_blank"><img :src="badge.src" /></a>
       </div>
       <!-- <div class="link-area">
         <a v-for="link in links" :key="link.href" :href="link.href" target="_blank"><img :src="link.src" /></a>
@@ -94,14 +94,14 @@ export default {
       //     src: require('~/static/image/about/links/github.png'),
       //   },
       // ],
-      budges: [
+      badges: [
         {
-          href: 'https://www.credly.com/budges/4acbfd19-c02f-44a8-b548-d95422d00f07/public_url',
-          src: require('~/static/image/about/budges/oracle-master-bronze-oracle-database-12c-jpn.1.png'),
+          href: 'https://www.credly.com/badges/4acbfd19-c02f-44a8-b548-d95422d00f07/public_url',
+          src: require('~/static/image/about/badges/oracle-master-bronze-oracle-database-12c-jpn.1.png'),
         },
         {
-          href: 'https://www.credly.com/budges/c378b206-7e85-45c5-8e13-022aaf323db2/public_url',
-          src: require('~/static/image/about/budges/aws-certified-solutions-architect-associate.png'),
+          href: 'https://www.credly.com/badges/c378b206-7e85-45c5-8e13-022aaf323db2/public_url',
+          src: require('~/static/image/about/badges/aws-certified-solutions-architect-associate.png'),
         },
       ],
     };
@@ -170,7 +170,7 @@ export default {
 }
 
 /* #about .link-area, */
-#about .budge-area {
+#about .badge-area {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
@@ -181,7 +181,7 @@ export default {
 } */
 
 /* #about .link-area a, */
-#about .budge-area a {
+#about .badge-area a {
   display: inline-block;
   margin: 0 1rem;
 }
@@ -207,7 +207,7 @@ export default {
     margin-bottom: 20px;
   }
 
-  #about .budge-area {
+  #about .badge-area {
     margin-top: 1rem;
   }
 
