@@ -20,18 +20,29 @@ export default {
     return {
       histories: [
         {
+          title: 'BtoBプラットフォーム構築',
+          span: '2022年6月～',
+          role: 'AWSエンジニア / アーキテクト',
+          duties: [
+            'サーバレスアーキテクチャ設計・構築',
+            'サーバレスアーキテクチャ CI/CD設計・構築',
+          ],
+          techs: ['AWS Lambda', 'AWS CDK'],
+          envs: ['Mac', 'GitHub'],
+        },
+        {
           title: 'エンタープライズ向けECフレームワーク再編',
           span: '2022年3月～',
-          role: 'ITアーキテクト',
+          role: 'AWSエンジニア / アーキテクト',
           duties: [
-            'AWSアカウント構成策定 / 見積もり',
-            'ネットワーク構成策定',
-            'インフラストラクチャ全体構成策定 / 技術選定',
+            'AWSアカウント設計 / 見積もり',
+            'ネットワーク設計',
+            'インフラストラクチャ全体設計 / 技術選定',
             'Inflastructure as Code 構成管理策定',
-            'CI/CD基盤構成策定 / デプロイ戦略策定',
+            'CI/CD設計・構築 / デプロイ戦略策定',
             'Spring Boot プロジェクトベース開発',
             'Nuxt3 プロジェクトベース開発',
-            'Terraform AWSインフラ開発'
+            'Terraform AWSインフラ開発',
           ],
           techs: ['AWS', 'Terraform', 'Spring', 'Java', 'Nuxt.js', 'Vue.js', 'TypeScript', 'MySQL'],
           envs: ['Mac', 'InteliJ', 'VSCode', 'Gradle', 'Docker Compose', 'Swagger', 'Jira', 'Bitbucket'],
