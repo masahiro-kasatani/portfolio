@@ -19,17 +19,17 @@ export default {
   data() {
     return {
       histories: [
-        {
-          title: 'BtoBプラットフォーム構築',
-          span: '2022年6月～',
-          role: 'AWSエンジニア / アーキテクト',
-          duties: [
-            'サーバレスアーキテクチャ設計・構築',
-            'サーバレスアーキテクチャ CI/CD設計・構築',
-          ],
-          techs: ['AWS Lambda', 'AWS CDK'],
-          envs: ['Mac', 'GitHub'],
-        },
+        // {
+        //   title: 'BtoBプラットフォーム構築',
+        //   span: '2022年6月～',
+        //   role: 'AWSエンジニア / アーキテクト',
+        //   duties: [
+        //     'サーバレスアーキテクチャ設計・構築',
+        //     'サーバレスアーキテクチャ CI/CD設計・構築',
+        //   ],
+        //   techs: ['AWS Lambda', 'AWS CDK'],
+        //   envs: ['Mac', 'GitHub'],
+        // },
         {
           title: 'エンタープライズ向けECフレームワーク再編',
           span: '2022年3月～',
@@ -43,8 +43,9 @@ export default {
             'Spring Boot プロジェクトベース開発',
             'Nuxt3 プロジェクトベース開発',
             'Terraform AWSインフラ開発',
+            'AWSインフラ負荷試験環境構築 / 負荷試験実施',
           ],
-          techs: ['AWS', 'Terraform', 'Spring', 'Java', 'Nuxt.js', 'Vue.js', 'TypeScript', 'MySQL'],
+          techs: ['AWS', 'Terraform', 'Spring', 'Java', 'Nuxt.js', 'Vue.js', 'TypeScript', 'MySQL', 'JMeter'],
           envs: ['Mac', 'InteliJ', 'VSCode', 'Gradle', 'Docker Compose', 'Swagger', 'Jira', 'Bitbucket'],
         },
         {
