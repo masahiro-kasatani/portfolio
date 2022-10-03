@@ -19,20 +19,23 @@ export default {
   data() {
     return {
       histories: [
-        // {
-        //   title: 'BtoBプラットフォーム構築',
-        //   span: '2022年6月～',
-        //   role: 'AWSエンジニア / アーキテクト',
-        //   duties: [
-        //     'サーバレスアーキテクチャ設計・構築',
-        //     'サーバレスアーキテクチャ CI/CD設計・構築',
-        //   ],
-        //   techs: ['AWS Lambda', 'AWS CDK'],
-        //   envs: ['Mac', 'GitHub'],
-        // },
+        {
+          title: 'BtoBプラットフォーム構築',
+          span: '2022年6月～9月',
+          role: 'Goエンジニア / サーバレスアーキテクト',
+          duties: [
+            'サーバレスアーキテクチャ設計・構築',
+            'サーバレスアーキテクチャ CI/CD設計・構築',
+            'サーバレスアプリケーション方式設計',
+            'サーバレスアプリケーション雛形作成',
+            'Elasticsearch 全文検索アーキテクチャ設計',
+          ],
+          techs: ['AWS Lambda', 'AWS CDK', 'Go', 'TypeScript', 'PostgreSQL', 'Elasticsearch'],
+          envs: ['Mac', 'VSCode', 'Docker Compose', 'GitHub'],
+        },
         {
           title: 'エンタープライズ向けECフレームワーク再編',
-          span: '2022年3月～',
+          span: '2022年3月～9月',
           role: 'AWSエンジニア / アーキテクト',
           duties: [
             'AWSアカウント設計 / 見積もり',
