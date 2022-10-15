@@ -22,7 +22,7 @@ export default {
         {
           title: '中古流通業 パートナー向けプラットフォーム構築',
           span: '2022年10月～',
-          role: 'AWSエンジニア / アーキテクト',
+          role: 'インフラエンジニア',
           duties: [
             'Kubernetesクラスタ構成変更',
             'Kubernetesクラスタ内ネットワーク構成変更',
@@ -48,7 +48,7 @@ export default {
         {
           title: 'エンタープライズ向けECフレームワーク再編',
           span: '2022年3月～9月',
-          role: 'AWSエンジニア / アーキテクト',
+          role: 'AWSアーキテクト / IaCエンジニア',
           duties: [
             'AWSアカウント設計 / 見積もり',
             'ネットワーク設計',
@@ -66,7 +66,7 @@ export default {
         {
           title: '不動産業 モール型ECサイトの設計・構築',
           span: '2020年10月～2022年2月',
-          role: 'AWSエンジニア / アーキテクト',
+          role: 'AWSアーキテクト / IaCエンジニア',
           duties: [
             'AWS CDK 開発',
             'AWS CDK Construct Library の開発',
@@ -80,7 +80,7 @@ export default {
         {
           title: '中古流通業 基幹システムの刷新',
           span: '2020年3月～2021年2月',
-          role: 'PG',
+          role: 'Javaエンジニア',
           duties: [
             '各種APIの設計・実装・試験',
             '各種テーブルの設計',
