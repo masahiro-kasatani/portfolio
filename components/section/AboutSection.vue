@@ -80,12 +80,6 @@ export default {
           desc: `アプリケーション、IaC、コンテナ、Lambda、DBマイグレーションなど、様々なリソースのCI/CDを構築してきました。
           同時に、Blue-GreenやCanaryなど、デプロイ戦略の策定および、AWSにおける実現手法についてもサポート可能です。`,
         },
-        {
-          title: 'Webアプリケーション開発',
-          desc: `Backend（Spring/Java）を専門としています。プロジェクト構成検討や共通ライブラリの開発など、根幹部分を担当できます。
-          Frontend（Nuxt/TypeScript）の基本知識や開発経験もあるため、Frontendエンジニアとの円滑なコミュニケーションも可能です。
-          AWS SDKを利用した開発や、ローカル開発環境構築などもサポートできます。`,
-        },
       ],
       // links: [
       //   {
