@@ -65,7 +65,7 @@ export default {
     return {
       name: '笠谷 昌弘（カサタニ マサヒロ）',
       place: '東京都',
-      bioList: ['2016年 SCSK株式会社 入社', '2020年 独立'],
+      bioList: ['2016年〜：SCSK株式会社（正社員）', '2020年〜：KeepAlive株式会社（フリーランス）'],
       specializedList: [
         {
           title: 'AWSアーキテクティング',
