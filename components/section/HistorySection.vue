@@ -20,6 +20,18 @@ export default {
     return {
       histories: [
         {
+          title: '中古流通業 パートナー向けプラットフォーム構築',
+          span: '2022年10月～',
+          role: 'AWSエンジニア / アーキテクト',
+          duties: [
+            'Kubernetesクラスタ構成変更',
+            'Kubernetesクラスタ内ネットワーク構成変更',
+            'Kubernetes環境 CI/CD設計・構築（GitOps）',
+          ],
+          techs: ['AWS', 'Kubernetes', 'ArgoCD', 'Ansible', 'SQL Server', 'Redis'],
+          envs: ['Windows', 'GitLab', 'Jira'],
+        },
+        {
           title: 'BtoBプラットフォーム構築',
           span: '2022年6月～9月',
           role: 'Goエンジニア / サーバレスアーキテクト',
