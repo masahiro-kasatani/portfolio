@@ -27,6 +27,7 @@ export default {
             'Kubernetesクラスタ構成変更',
             'Kubernetesクラスタ内ネットワーク構成変更',
             'Kubernetes環境 CI/CD設計・構築（GitOps）',
+            '既存保守デプロイフローの改善（設計・構築）',
           ],
           techs: ['AWS', 'Kubernetes', 'ArgoCD', 'Ansible', 'SQL Server', 'Redis'],
           envs: ['Windows', 'GitLab', 'Jira'],
