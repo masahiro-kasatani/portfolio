@@ -73,12 +73,11 @@ export default {
         },
         {
           title: 'Infrastructure as Code の導入',
-          desc: 'Terraform、AWS CDK で様々なインフラを構築してきました。その経験から、テックリードとして AWSインフラのコード化を推進できます。',
+          desc: 'Terraform、AWS CDK で様々なインフラを構築してきました。IaC化の推進リーダーとしてバリューを発揮できます。',
         },
         {
           title: 'CI/CD 設計・構築',
-          desc: `アプリケーション、IaC、コンテナ、Lambda、DBマイグレーションなど、様々なリソースのCI/CDを構築してきました。
-          同時に、Blue-GreenやCanaryなど、デプロイ戦略の策定および、AWSにおける実現手法についてもサポート可能です。`,
+          desc: 'Kubernetes、ECS、Lambda、IaC、DBマイグレーションなど、様々なCI/CDを設計・構築してきました。DevOps推進リーダーとしてバリューを発揮できます。',
         },
       ],
       // links: [
