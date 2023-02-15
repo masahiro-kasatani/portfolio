@@ -30,7 +30,7 @@ export default {
             '既存保守デプロイフローの改善（設計・構築）',
           ],
           techs: ['AWS', 'Kubernetes', 'ArgoCD', 'Ansible', 'SQL Server', 'Redis'],
-          envs: ['Windows', 'GitLab', 'Jira'],
+          envs: ['Windows', 'CentOS 7', 'GitLab', 'Jira'],
         },
         {
           title: 'BtoBプラットフォーム構築',
@@ -90,7 +90,7 @@ export default {
             'インフラ構築・運用',
           ],
           techs: ['Spring', 'Java', 'Go', 'SQL Server', 'Redis', 'Elasticsearch', 'Kibana', 'Kubernetes'],
-          envs: ['Windows', 'Eclipse', 'Gradle', 'Docker', 'Backlog', 'GitLab'],
+          envs: ['Windows', 'CentOS 7', 'Eclipse', 'Gradle', 'Docker', 'Backlog', 'GitLab'],
         },
       ],
     };
