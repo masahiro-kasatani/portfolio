@@ -29,7 +29,7 @@ export default {
             'Kubernetes環境 CI/CD設計・構築（GitOps）',
             '既存保守デプロイフローの改善（設計・構築）',
           ],
-          techs: ['AWS', 'Kubernetes', 'ArgoCD', 'Ansible', 'SQL Server', 'Redis'],
+          techs: ['AWS', 'Kubernetes', 'ArgoCD', 'Ansible', 'SQL Server', 'Redis', 'Fluentd'],
           envs: ['Windows', 'CentOS 7', 'GitLab', 'Jira'],
         },
         {
