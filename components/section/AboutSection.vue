@@ -96,12 +96,16 @@ export default {
       // ],
       badges: [
         {
-          href: 'https://www.credly.com/badges/4acbfd19-c02f-44a8-b548-d95422d00f07/public_url',
-          src: require('~/static/image/about/badges/oracle-master-bronze-oracle-database-12c-jpn.1.png'),
+          href: 'https://www.credly.com/badges/88b4a940-e32d-445d-ba31-57cb18d8a2a5/public_url',
+          src: require('~/static/image/about/badges/aws-certified-solutions-architect-professional.png'),
         },
         {
           href: 'https://www.credly.com/badges/c378b206-7e85-45c5-8e13-022aaf323db2/public_url',
           src: require('~/static/image/about/badges/aws-certified-solutions-architect-associate.png'),
+        },
+        {
+          href: 'https://www.credly.com/badges/4acbfd19-c02f-44a8-b548-d95422d00f07/public_url',
+          src: require('~/static/image/about/badges/oracle-master-bronze-oracle-database-12c-jpn.1.png'),
         },
       ],
     };
