@@ -29,7 +29,7 @@ export default {
             'Kubernetes環境 CI/CD設計・構築（GitOps）',
             '既存保守デプロイフローの改善（設計・構築）',
           ],
-          techs: ['AWS', 'Kubernetes', 'ArgoCD', 'Ansible', 'SQL Server', 'Redis', 'Fluentd'],
+          techs: ['AWS', 'Kubernetes', 'ArgoCD', 'Ansible', 'Microsoft SQL Server', 'Redis', 'Fluentd'],
           envs: ['Windows', 'CentOS 7', 'GitLab', 'Jira'],
         },
         {
@@ -89,7 +89,7 @@ export default {
             'ブランチ管理/デプロイ管理・作業',
             'インフラ構築・運用',
           ],
-          techs: ['Spring', 'Java', 'Go', 'SQL Server', 'Redis', 'Elasticsearch', 'Kibana', 'Kubernetes'],
+          techs: ['Spring', 'Java', 'Go', 'Microsoft SQL Server', 'Redis', 'Elasticsearch', 'Kibana', 'Kubernetes'],
           envs: ['Windows', 'CentOS 7', 'Eclipse', 'Gradle', 'Docker', 'Backlog', 'GitLab'],
         },
       ],
