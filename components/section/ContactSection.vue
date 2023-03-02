@@ -6,7 +6,7 @@
       </div>
       <div class="section-body">
         <div class="contact-list">
-          <div class="contact-mail">turtlebuild@gmail.com</div>
+          <div class="contact-mail">kasatani1226@gmail.com</div>
         </div>
       </div>
     </div>
