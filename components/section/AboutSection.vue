@@ -73,7 +73,7 @@ export default {
         },
         {
           title: 'Infrastructure as Code の導入',
-          desc: 'Terraform、AWS CDK で様々なインフラを構築してきました。IaC化の推進リーダーとしてバリューを発揮できます。',
+          desc: 'Terraform、AWS CDK、Ansible で様々なインフラを構築してきました。IaC化の推進リーダーとしてバリューを発揮できます。',
         },
         {
           title: 'CI/CD 設計・構築',
