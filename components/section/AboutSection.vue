@@ -44,9 +44,9 @@
       <div class="badge-area">
         <a v-for="badge in badges" :key="badge.href" :href="badge.href" target="_blank"><img :src="badge.src" /></a>
       </div>
-      <!-- <div class="link-area">
+      <div class="link-area">
         <a v-for="link in links" :key="link.href" :href="link.href" target="_blank"><img :src="link.src" /></a>
-      </div> -->
+      </div>
       <div class="specialized-area">
         <dl v-for="specialized in specializedList" :key="specialized.title">
           <dt>
@@ -80,20 +80,20 @@ export default {
           desc: 'Kubernetes、ECS、Lambda、IaC、DBマイグレーションなど、様々なCI/CDを設計・構築してきました。DevOps推進リーダーとしてバリューを発揮できます。',
         },
       ],
-      // links: [
-      //   {
-      //     href: 'https://turtlebuild.hatenablog.com/',
-      //     src: require('~/static/image/about/links/hatena.png'),
-      //   },
-      //   {
-      //     href: 'https://zenn.dev/kasa?tab=scraps',
-      //     src: require('~/static/image/about/links/zenn.png'),
-      //   },
-      //   {
-      //     href: 'https://github.com/TurtleBuild',
-      //     src: require('~/static/image/about/links/github.png'),
-      //   },
-      // ],
+      links: [
+        {
+          href: 'https://lapras.com/public/kasatani',
+          src: require('~/static/image/about/links/lapras.png'),
+        },
+        {
+          href: 'https://zenn.dev/kasa',
+          src: require('~/static/image/about/links/zenn.png'),
+        },
+        {
+          href: 'https://github.com/masahiro-kasatani',
+          src: require('~/static/image/about/links/github.png'),
+        },
+      ],
       badges: [
         {
           href: 'https://www.credly.com/badges/88b4a940-e32d-445d-ba31-57cb18d8a2a5/public_url',
@@ -173,18 +173,18 @@ export default {
   white-space: pre-line;
 }
 
-/* #about .link-area, */
+#about .link-area,
 #about .badge-area {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-/* #about .link-area {
-  margin-top: 1rem;
-} */
+#about .link-area {
+  margin-top: 3rem;
+}
 
-/* #about .link-area a, */
+#about .link-area a,
 #about .badge-area a {
   display: inline-block;
   margin: 0 1rem;
