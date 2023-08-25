@@ -19,9 +19,10 @@ export default {
   data() {
     return {
       histories: [
+        
         {
           title: '中古流通業 パートナー向けプラットフォーム構築',
-          span: '2022年10月～',
+          span: '2022年10月～2023年6月',
           role: 'インフラエンジニア',
           duties: [
             'Kubernetesクラスタ構成変更',
@@ -34,7 +35,7 @@ export default {
         },
         {
           title: 'BtoBプラットフォーム構築',
-          span: '2022年6月～9月',
+          span: '2022年6月～2022年9月',
           role: 'Goエンジニア / サーバレスアーキテクト',
           duties: [
             'サーバレスアーキテクチャ設計・構築',
@@ -48,7 +49,7 @@ export default {
         },
         {
           title: 'エンタープライズ向けECフレームワーク再編',
-          span: '2022年3月～9月',
+          span: '2022年3月～2022年9月',
           role: 'AWSアーキテクト / IaCエンジニア',
           duties: [
             'AWSアカウント設計 / 見積もり',
