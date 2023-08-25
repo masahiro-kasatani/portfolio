@@ -28,7 +28,7 @@ export default {
         {
           title: 'PacVim',
           href: 'https://github.com/TurtleBuild/pacvim',
-          src: require('~/static/image/works/pacvim.png'),
+          src: require('~/static/image/works/pacvim_go.png'),
           techs: ['Go'],
         },
         {
